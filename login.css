@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f0f2f5;
+    width: 100%;
+}
+#brand{
+    font-size: 22px;
+    color: #413839;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 60px;
+}
+#header{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+#form-contain{
+    width: 400px;
+    background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+#login{
+    text-align: center;
+}
+#login .message{
+    font-size: 18px;
+    padding-top: 20px;
+}
+#login #msg{
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #ffe600;
+    background-color: #fff9d7;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 13px;
+    color: rgb(70, 68, 68);
+}
+.control{
+    margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.control input{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.212);
+    border-radius: 3px;
+    padding: 13px;
+    font-size: 17px;
+    width: 90%;
+    outline: none;
+}
+.control p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    display: none;
+}
+#form-contain #button{
+    margin-left: 20px;
+    outline: none;
+    width: 90%;
+    padding: 13px;
+    font-size: 17px;
+    border: solid;
+    border-width: 1px;
+    border-color: #fa9caa;
+    border-radius: 3px;
+    color: white;
+    background-color: #fa9caa;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.0);
+}
+#form-contain ul{
+    display: flex;
+    justify-content: center;
+}
+#form-contain ul li{
+    list-style: none;
+}
+#form-contain ul li a{
+    text-decoration: none;
+    margin: 4px;
+    color: #413839;
+    font-size: 15px;
+}
+#form-contain ul li a:hover{
+    text-decoration: underline;
+    color: #413839;
+}
+#form-contain ul p{
+    font-size: 11px;
+}

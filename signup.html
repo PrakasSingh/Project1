@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SignUp</title>
+        <link rel="stylesheet" href="signup.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div id="brand">
+            <h1>Snow</h1>
+        </div>
+        <form id="account" name="myform" onsubmit="return validate()">
+            <h1 id="header">Create a new account</h1>
+            <input id="main" name="main" placeholder="Form can't be empty"><br><br>
+            <div class="control">
+                <input id="first" type="text" name="fname" placeholder="First name" autocomplete="off">
+                <p id="name">Please enter in alphabet formate</p>
+            </div>
+            <div class="control">
+                <input id="last" type="text" name="lname" placeholder="Last name">
+                <p id="sirname">Please enter in alphabet formate</p>
+            </div>
+            <div class="control">
+                <input id="num" type="tel" name="num" placeholder="Mobile number">
+                <p id="mobnumber">Please enter mobile number with (+)CountryCode</p>
+            </div>
+            <div class="control">
+                <input id="mail" type="email" name="Email" placeholder="Email address">
+                <p id="mailerror">Please enter in correct formate</p>
+            </div>
+            <div class="control">
+                <input id="passcode" type="password" name="pass" placeholder="New password">
+                <p id="password">Please include some special character like:(~!@#$%^&*)</p>
+            </div>
+            <p id="date">Date of birth</p><br>
+            <div class="control">
+                <input id="dob" type="date" name="date">
+                <i class="fas fa-question-circle icon"></i><br>
+                <p>Error</p>
+            </div>
+            <p class="gender">Gender</p><br>
+            <label><input type="radio" name="gender" checked> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+            <label><input type="radio" name="gender"> Other</label>
+            <i class="fas fa-question-circle ques"></i><br><br><br>
+            <input id="button" type="submit" value="Sign Up" >
+            
+        </form>
+        <script type="text/javascript" src="signup.js" defer></script>
+    </body>
+</html>
